@@ -44,7 +44,7 @@
 			)
 			(layer "F.Mask"
 				(type "Top Solder Mask")
-				(color "Black")
+				(color "Purple")
 				(thickness 0.01)
 			)
 			(layer "F.Cu"
@@ -64,7 +64,7 @@
 			)
 			(layer "B.Mask"
 				(type "Bottom Solder Mask")
-				(color "Black")
+				(color "Purple")
 				(thickness 0.01)
 			)
 			(layer "B.Paste"
@@ -14473,6 +14473,7 @@
 		(property "Reference" "U1"
 			(at 0 -5.55 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "75d37032-bba5-423f-b220-186a5f412e89")
 			(effects
 				(font
@@ -67278,6 +67279,19 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "    ^\nmicrocontroller\n"
+		(at 304.5 47 0)
+		(layer "F.SilkS")
+		(uuid "2bb4964b-96c1-43f4-8483-b9258ecab497")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.25)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text ":)"
 		(at 276 73.5 90)
 		(layer "F.SilkS")
@@ -67286,6 +67300,19 @@
 			(font
 				(size 4 4)
 				(thickness 0.8)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "spacebar --->"
+		(at 125 114.5 0)
+		(layer "F.SilkS")
+		(uuid "454f7bb7-3bcf-413e-816b-e92b6d750fd7")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.5)
 				(bold yes)
 			)
 			(justify left bottom)
@@ -67382,13 +67409,14 @@
 			(keep_text_aligned yes)
 		)
 		(gr_text "92.5"
-			(at 30.9 76.25 90)
+			(at 30.8 76.25 90)
 			(layer "F.SilkS")
 			(uuid "15263f45-da7d-4030-80c0-de87766fbe97")
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.1)
+					(thickness 0.2)
+					(bold yes)
 				)
 			)
 		)
